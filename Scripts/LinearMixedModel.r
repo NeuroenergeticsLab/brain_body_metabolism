@@ -1,3 +1,10 @@
+library(MuMIn)
+library(lme4)
+library(lmerTest)
+
+options(scipen=999)
+
+
 # List of files where maingroup = main analysis and subgroup = severely hypoglycemic subgroup (n=6)
 file_paths <- c(
     '../Data/LMEinput_roischaefer_CMRO2_maingroup.csv',
